@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dropdown</title>
+    <style>
+ .grid1{
+            display: grid;
+             grid-template-columns: repeat(2,1fr);
+             grid-gap: 5px;
+            }
+            img {
+              width: 100%;
+            }
+           .menu {
+
+                  position: fixed;
+                  height: 700px;
+                  width: 280px;
+                  background-color: rgb(255, 99, 71);
+                  z-index: auto;
+                  text-align: left;
+                  padding-left: 15px;
+                  padding-bottom: 0%;
+                  left: 10px;
+                  top: 10px;
+               color: aliceblue;
+               
+
+           }
+           #Company{
+               font-size: 50px;
+
+
+           }
+           .cursor{
+                   cursor: pointer;
+               }
+           
+           body{
+               margin-left: 400px;
+           }
+           h1{
+               
+               color: rgb(255, 99, 71);
+        
+               text-decoration: underline ;
+           }
+           
+           
+           tr1{
+               width: 1000%;
+               border: 3px solid rgb(255, 99, 71);
+               background-color: rgb(255, 99, 71);
+               padding: 10px;
+               text-align: center;
+           }
+           td1{
+               color: white;
+           }
+           .grid2{
+                 display: grid;
+                 grid-template-columns: repeat(3,1fr);
+                 grid-gap:0px;
+                }
+           img{
+                width: 100%;
+              }
+   
+           div.desc {
+                     float: left;
+                      width: 320px;
+                      height:400px;
+                     background-color: rgb(175, 178, 181);
+ 
+                   }
+           .text_align{
+                       margin-left: 10px;
+                      }
+           .g{
+               color: #00000089;
+             }
+           #header_font_size{
+               font-size: 50px;
+           }
+
+.grid-container3{
+                float: left;
+                
+                display: grid;
+                
+                grid-template-columns: repeat(2,1fr);
+                padding-right: 100px;
+                grid-column-gap: 20px; ;
+                padding-bottom: 100px;
+                
+                
+            }
+        .grid-item3{
+                background-color: aliceblue;
+                padding: 20px;
+                text-align: center;
+                border:solid 1px;
+                width: 400px;
+
+
+.dropbtn1 {
+  
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border:none
+  cursor: pointer;
+}
+.dropbtn2 {
+  
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border:none
+  cursor: pointer;
+}
+
+
+
+.dropbtn1:hover,
+.dropbtn2:hover,
+
+.dropbtn1:focus {
+  background-color: white(255, 99, 71);
+}
+.dropbtn2:focus {
+  background-color: rgb(255, 99, 71);
+}
+
+        .dropdown {
+  position: relative;
+  display: inline-block;}
+  
+
+
+.dropdown-content {
+  display: none;
+  /* position: absolute; */
+  background-color: aliceblue;
+  /* border:solid 1px;
+  width: 400px;
+  padding: 20px;
+  
+  text-align: center;
+  min-width: 160px;
+  overflow: auto; */
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: aliceblue}
+.show {display:block;}
+
+
+    </style>
+</head>
+
+<body>
+  <h2 id="header_font_size">Interior Design</h2>
+  <h1>Showcase.</h1>
+  <div class="grid1">
+     <img src="showcase-01.jpg" alt="showcase-01.jpg" style="width: 550px;px;height: 400px;px">
+     <img src="showcase-02.jpg" alt="showcase-02.jpg" style="width:550x;height: 400px;px;">
+     <img src="showcase-03.jpg" alt="showcase-03.jpg" style="width:550px;height: 400px;px;">
+     <img src="showcase-04.jpg" alt="showcase-04.jpg" style="width:550px;height: 400px;px;">
+     <img src="showcase-05.jpg" alt="showcase-05.jpg" style="width:550px;height: 400px;px;">
+     <img src="showcase-06.jpg" alt="showcase-06.jpg" style="width:550px;height: 400px;px;">
+  </div>
+  <h1>Services.</h1>
+  <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Rem voluptates esse exercitationem quia minima in </pre>
+  <h1>Designers.</h1>
+  <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Rem voluptates esse exercitationem quia minima in </pre>
+  <div class="grid2">
+     <div class="desc">
+        <img src="person-01.jpg" alt="gf" width="400" height="250">
+        <div class="text_align">
+           <h2>John Doe</h2>
+           <div class="g"
+           <h3>CEO & Founder</h3>
+        </div>
+        <pre>
+Lorem ipsum dolor sit am
+ur adiobrem? Ut ex
+</pre>
+     </div>
+  </div>
+  <div class="desc">
+     <img src="person-02.jpg" alt="gf" width="400" height="250">
+     <div class="text_align">
+        <h2>Sarah</h2>
+        <div class="g"
+        <h3>Designers</h3>
+     </div>
+     <pre>
+Lorem ipsum dolor sit am
+ur adiobrem? Ut ex
+</pre>
+  </div>
+  </div>
+  <div class="desc">
+     <img src="person-03.jpg" alt="gf" width="400" height="250">
+     <div class="text_align">
+        <h2>Watson</h2>
+        <div class="g"
+        <h3>Architect</h3>
+     </div>
+     <pre>
+Lorem ipsum dolor sit am
+ur adiobrem? Ut ex
+</pre>
+  </div>
+  </div>
+  </div>
+  <h1>Packages.</h1>
+  <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Rem voluptates esse exercitationem quia minima in </pre> 
+
+<div class="grid-container3">
+
+  <div class="grid-item3">Basic</div>
+         <div class="grid-item3 floor">Floorplanning</div>
+         <div class="grid-item3">10 hours support</div>
+         <div class="grid-item3">Photography</div>
+         <div class="grid-item3">20% discount</div>
+         <div class="grid-item3">Good details</div>
+         <div class="grid-item3"></div>
+         <div class="grid-item3">2</div>
+         <div class="grid-item3">Basic</div>
+         <div class="grid-item3">Floorplanning</div>
+         <div class="grid-item3">10 hours suppor</div>
+         <div class="grid-item3">50% discount</div>
+         <div class="grid-item3">
+            <button onclick="add1()">+</button>
+            $<input id="txtNumber" type="text" value="199" style="width:30px; border: 0;" />
+            <button onclick="sub1()">-</button>
+            <br>
+            <input id="txtNumber1" type="text" value="1" style="width:20px; border: 0;" />Room
+         </div>
+         <div class="grid-item3">
+            <button onclick="add2()">+</button>
+            $<input id="txtNumber2" type="text" value="199" style="width:30px; border: 0;" />
+            <button onclick="sub2()">-</button>
+            <br>
+            <input id="txtNumber3" type="text" value="1" style="width:20px; border: 0;" />Room
+         </div>
+
+
+<div class="grid-item3">
+    <div class="dropdown"></div>
+    <button id="myBtn1" class="dropbtn1">Sign Up</button>
+    <div id="myDropdown1" class="dropdown-content">
+        <div class="">
+           thank you for choosing
+        </div>
+     </div>
+ </div>
+ <div class="grid-item3">
+    <div class="dropdown">
+       <button id="myBtn2" class="dropbtn2">Sign Up</button>
+       <div id="myDropdown2" class="dropdown-content">
+        <div  class="">
+           thank you for choosing
+        </div>
+     </div>
+  </div>
+</div>
+  <script>
+
+function add1() {
+            var txtNumber = document.getElementById("txtNumber");
+            var txtNumber1 = document.getElementById("txtNumber1");
+            var newNumber = parseInt(txtNumber.value) + 199;
+            var newNumber1 = parseInt(txtNumber1.value) + 1;
+            txtNumber.value = newNumber;
+            txtNumber1.value = newNumber1;
+            }
+            
+            function sub1() {
+            var txtNumber = document.getElementById("txtNumber");
+            var txtNumber1 = document.getElementById("txtNumber1");
+            var newNumber = parseInt(txtNumber.value) - 199;
+            var newNumber1 = parseInt(txtNumber1.value) - 1;
+            
+            // Limit the counter to not go below 0
+            if (newNumber >= 199) {
+            txtNumber.value = newNumber;
+            txtNumber1.value = newNumber1;
+            }
+            }
+            
+            function add2() {
+            var txtNumber2 = document.getElementById("txtNumber2");
+            var txtNumber3 = document.getElementById("txtNumber3");
+            var newNumber2 = parseInt(txtNumber2.value) + 199;
+            var newNumber3 = parseInt(txtNumber3.value) + 1;
+            txtNumber2.value = newNumber2;
+            txtNumber3.value = newNumber3;
+            }
+            
+            function sub2() {
+            var txtNumber2 = document.getElementById("txtNumber2");
+            var txtNumber3 = document.getElementById("txtNumber3");
+            var newNumber2 = parseInt(txtNumber2.value) - 199;
+            var newNumber3 = parseInt(txtNumber3.value) - 1;
+            
+            // Limit the counter to not go below 0
+            if (newNumber2 >= 199) {
+            txtNumber2.value = newNumber2;
+            txtNumber3.value = newNumber3;
+            }
+            }
+
+    document.getElementById("myBtn1").onclick = function() {myFunction1()};
+            document.getElementById("myBtn2").onclick = function() {myFunction2()};
+            
+            function myFunction1() {
+             document.getElementById("myDropdown1").classList.toggle("show");
+            }
+            
+            function myFunction2() {
+             document.getElementById("myDropdown2").classList.toggle("show");
+            }
+  </script>
+  </div>
+
+  <h1 id="gr">Contact.</h1>
+      <pre>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptates necessitatibus exercitationem ex 
+libero dolore cum assumenda perspiciatis sed magnam! Veritatis ducimus, atque maxime perspiciatis perferendis ab eaque nobis quia.
+Do you want us to ....
+</pre>
+      <form id="la">
+         <!-- Your existing form fields for name, email, and message -->
+         <table>
+            <tr>
+               <td>Name</td>
+            </tr>
+         </table>
+         <input type="text" name="Name" required>
+         <br>
+         <table>
+            <tr>
+               <td>Email</td>
+            </tr>
+         </table>
+         <input type="email" name="Email" required>
+         <br>
+         <table>
+            <tr>
+               <td>Message</td>
+            </tr>
+         </table>
+         <input type="text" name="Message" required>
+         <br><br>
+         <!-- Add the anchor tag for the Facebook link -->
+         <a href="https://www.facebook.com/" target="_blank">
+            <table1>
+               <tr1>
+                  <td1>Send Message</td1>
+               </tr1>
+            </table1>
+         </a>
+      </form>
+      <div class="menu">
+         <h2 id="Company">The Company</h2>
+         <h3>Home</h3>
+         <div class="cursor">
+            <h3>Showcase</h3>
+            <h3>Services</h3>
+            <h3>Desig</h3>
+            <h3>Designers</h3>
+            <h3>Packages</h3>
+            <h3>Contact</h3>
+         </div>
+      </div>
+
+</body>
+</html>
